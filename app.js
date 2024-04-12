@@ -1,8 +1,3 @@
-/*
-    Javascript Space Game
-    By Frank Force 2021
-
-*/
 
 'use strict';
 
@@ -198,7 +193,7 @@ engineInit(
     }
 
     mainContext.font = '.5in impact';
-    p > 0 && mainContext.fillText('',mainCanvas.width/2, 210);
+    p > 0 && mainContext.fillText('Press Ok To Shoot, Press Play/Pause To Boom, Press Fast Forward To roll',mainCanvas.width/2, 210);
 
     // check if any enemies left
     let enemiesCount = 0;
