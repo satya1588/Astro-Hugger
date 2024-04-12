@@ -1,8 +1,3 @@
-/*
-    Javascript Space Game
-    By Frank Force 2021
-
-*/
 
 'use strict';
 
@@ -778,7 +773,7 @@ class Player extends Character
         this.holdingShoot  = !this.playerIndex && (mouseIsDown(0) || keyIsDown(13)) || gamepadIsDown(2, this.playerIndex);
         this.pressingThrow = !this.playerIndex && (mouseIsDown(2) || keyIsDown(179)) || gamepadIsDown(1, this.playerIndex);
         this.pressedDodge  = !this.playerIndex && (mouseIsDown(1) || keyIsDown(228)) || gamepadIsDown(3, this.playerIndex);
-        this.pressedDodge  = !this.playerIndex && (mouseIsDown(1) || keyIsDown(227)) || gamepadIsDown(3, this.playerIndex);
+        
 
         super.update();
 
